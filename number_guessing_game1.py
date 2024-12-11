@@ -2,7 +2,6 @@ import random
 
 guessing_number = random.randint(1, 100)
 guessed_number = 0
-print(guessing_number)
 
 while guessed_number != guessing_number:
     try:
