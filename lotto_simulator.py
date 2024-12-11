@@ -2,7 +2,6 @@ import random
 
 separator = 40*"_"
 guessing_numbers = random.sample(range(1, 50), 6)
-print(guessing_numbers)
 
 def user_input():
     guessed_numbers = [0, 0, 0, 0, 0, 0]
