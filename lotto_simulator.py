@@ -29,11 +29,11 @@ def user_input():
     return guessed_numbers
 
 def counter(list1, list2):
-    counter = 0
+    count = 0
     for i in range(len(list1)):
         if list1[i] in list2:
-            counter += 1
-    return counter
+            count += 1
+    return count
 
 guessed_numbers = user_input()
 print(f"Your numbers are: {sorted(guessed_numbers)}")
